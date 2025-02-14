@@ -9,9 +9,9 @@ export class ProjectsService {
 
 
     projects: Projects[] = [
-      { id: 0, name: 'Sample Angular Project', summary: 'This is a sample angular project description',description: "", projectLink: "", pictures: [],tags: [Tag.ANGULAR, Tag.TYPESCRIPT]},
-      { id: 1, name: 'Sample Java Project',summary: 'This is a sample java project description',description: "",projectLink: "",pictures: [],tags: [Tag.JAVA, Tag.SPRING_BOOT]},
-      { id: 2, name: 'Sample Python Project',summary: 'This is a sample python project description',description: "",projectLink: "",pictures: [],tags: [Tag.PYTHON]}
+      { id: 0, name: 'Sample Angular Project', summary: 'This is a sample angular project description',description: "", projectLink: "", pictures: ["../../assets/python_project.png","../../assets/python_project.png"],tags: [Tag.ANGULAR, Tag.TYPESCRIPT]},
+      { id: 1, name: 'Sample Java Project',summary: 'This is a sample java project description',description: "",projectLink: "",pictures: ["../../assets/python_project.png","../../assets/python_project.png"],tags: [Tag.JAVA, Tag.SPRING_BOOT]},
+      { id: 2, name: 'Job Prediction Service Application',summary: 'Application for Job predictions and and other crucial information that helps the Jobs Seekers and others to make efficient decisions in the rapidly evolving  job market.',description: "Application to predict Job availability statistics as well as through analysis regarding job availability, job Type, Sponsorship and other crucial information that helps the labor market to make efficient decisions in the rapidly evolving labor market.It is designed using Flask, HTML and Python that give statistics on Job market as well as takes required inputs, process through the model and predicted the results.",projectLink: "https://github.com/AmrutaMishra15/job-prediction-phase3",pictures: ["../../assets/python_project.png","../../assets/company_portal.png","../../assets/student_portal.png","../../assets/stats_screen.png"],tags: [Tag.PYTHON]}
     ];
 
   constructor() { }

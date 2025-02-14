@@ -11,6 +11,7 @@ import { Projects } from '../_models/projects';
 export class PortfolioComponent implements OnInit{
 
   projects = {} as Projects[];
+  isCollapse:boolean = true;
   constructor(private titleService: Title, private projectService: ProjectsService) {
     this.titleService.setTitle("Amruta - portfolio");
   }
