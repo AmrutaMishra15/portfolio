@@ -1,0 +1,9 @@
+accordion-group::ng-deep .btn-link {
+    color: white;
+}
+accordion-group::ng-deep .card-header {
+    background-color: #007bff;
+}
+ul.col_ul {
+    column-count: 3;
+}

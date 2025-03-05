@@ -1,1 +1,149 @@
-<p>resume works!</p>
+<div class="container text-center">
+    <button class="btn btn-primary mb-3 shadow border" (click)="DownloadFile()"> Download PDF Resume</button>
+    <div class="pb-2 ">
+    <accordion [isAnimated]="true" class="shadow">
+        <accordion-group heading="Work Experience" class="mb-1">
+            <div style="text-align: left;">
+                <h3 class="mb-0"> Full Stack Intern</h3>
+                <h4 class="text-primary">SelectFI</h4>
+                <ul>
+                    <li>Revamped payment estimates applications for 40+ dealership sites, improving user engagement and reducing user navigation time by 20%, utilizing skills in <b>JavaScript, PHP</b></li>
+                    <li>Engineered a <b>predictive screen</b> for payment plans using <b>Python and JavaScript</b>, increasing conversion rates by 15%.</li>
+                    <li>Implemented <b>leasing options in a payment calculator app </b>, leading to a 30% rise in customer satisfaction.</li>
+
+                </ul>
+            </div>
+            <hr>
+            <div style="text-align: left;">
+                <h3 class="mb-0">Senior Associate, Full Stack Developer</h3>
+                <h4 class="text-primary">Bank of New York and Mellon</h4>
+                <ul>
+                    <li>Created <b>automated alerting service </b> for setup expiration alerts, reducing manual oversight by 80%.</li>
+                    <li>Developed a <b>Spring Boot</b> web service with complex event workflow and 2nd level approval process in 3 weeks.</li>
+                    <li>Led development and testing of 10+ web applications using <b>Java, REST API, and Spring Boot</b> following <b> Agile </b> methodologies.</li>
+                    <li>Managed end-to-end development of 2 large-scale enterprise web applications serving over 10,000+ users.</li>
+                    <li>Spearheaded <b>SWIFT MT to MX </b> conversion, enabling compliance and 30% more transaction formats.</li>
+                    <li>Initiated design and implemented 5 microservices, leveraging Kafka for efficient data streaming.</li>
+
+                </ul>
+            </div>
+            <hr>
+            <div style="text-align: left;">
+                <h3 class="mb-0">Associate, Full Stack Developer</h3>
+                <h4 class="text-primary">Bank of New York and Mellon</h4>
+                <ul>
+                    <li>Optimized <b>SQL queries </b> and code, reducing report delivery turnaround time by 60% and resolved a <b>P2 production incident </b>, ensuring minimal business impact.</li>
+                    <li>Deployed 10+ applications leveraging <b>Docker, App Engine, & Kubernetes</b> streamlining <b>CI/CD pipelines </b> for efficient releases.</li>
+                    <li>Leveraged <b>AWS S3 </b>to design a bulk upload feature for seamless file storage, processing, and automated archiving, enhancing data management and scalability.</li>
+                    <li>Enhanced reporting application by creating 20+ reports using <b>Spring Batch & Jasper templates</b>.</li>
+                    <li>Migrated 5 <b>AngularJS </b>applications to <b>Angular</b> for improved performance and maintainability.</li>
+                    <li>Maintained and improved a legacy <b>Java, Spring MVC </b> application, reducing bugs by 40%.</li>
+                    <li>Built multiple <b>analytical dashboard/widgets</b> using <b>Highcharts/d3.js</b>, boosting data readability and decision-making.</li>
+
+                </ul>
+            </div>
+
+
+        </accordion-group>
+
+        <accordion-group heading="Skills" class="mb-1">
+            <div class="row" style="text-align: left;">
+                <div class="col">
+                    <h4 style="color: blue;">Programming Language: </h4>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>REST API</li>
+                        <li>TypeScript</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>C/C++</li>
+                        <li>PHP</li>
+                        <li>SQL (MySQL, Oracle SQL, DB2)</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 style="color: blue;">Frameworks: </h4>
+                    <ul>
+                        <li>Spring Boot</li>
+                        <li>Maven</li>
+                        <li>Angular</li>
+                        <li>Hibernate/JPA</li>
+                        <li>KAFKA</li>
+                        <li>PyTorch</li>
+                        <li>Numpy</li>
+                        <li>Pandas</li>
+                        <li>TensorFlow</li>
+                        <li>Hadoop</li>
+                        <li>Spark</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 style="color: blue;">Cloud Technologies: </h4>
+                    <ul>
+                        <li>AWS S3</li>
+                        <li>GCP</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 style="color: blue;">Devops: </h4>
+                    <ul>
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>Jenkins</li>
+                        <li>Git/ GitHub</li>
+                        <li>CI/CD</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 style="color: blue;">Softwares: </h4>
+                    <ul>
+                        <li>VS Code</li>
+                        <li>Intellij</li>
+                        <li>Eclipse</li>
+                        <li>GitHub</li>
+                        <li>JIRA</li>
+                        <li>Splunk</li>
+                        <li>ServiceNow</li>
+                        <li>Confluence</li>
+                        <li>WordPress</li>
+                        <li>Google Analytics</li>
+                        <li>Google Tag Manager</li>
+                        <li>SonarQube</li>
+                        <li>Oracle SQL Developer</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </accordion-group>
+
+        <accordion-group heading="Education">
+            <div style="text-align: left;">
+                <h3 class="mb-0">Master of Science in Computer Science</h3>
+                <h4 class="text-primary">University at Buffalo (SUNY)</h4>
+                <ul>
+                    <li>Graduated from University at Buffalo in January 2025</li>
+                    <li>GPA: 3.63/4.00</li>
+                    <li>Relevant Coursework:
+                        <ul class="col_ul">
+                            <li>Algorithms Analysis & Design</li>
+                            <li>Computer Security</li>
+                            <li>Data Intensive Computing</li>
+                            <li>Machine Learning</li>
+                            <li>Computer Architecture</li>
+                            <li>Modern Networking</li>
+                            <li>Operating Systems</li>
+                            <li>Management of IT Projects</li>
+                            <li>Database Systems</li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+            </div>
+
+        </accordion-group>
+    </accordion>
+    </div>
+</div>
